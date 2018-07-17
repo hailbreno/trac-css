@@ -158,7 +158,7 @@ table.listing tbody tr:hover {
 }
 
 table.listing thead tr, .tickets tr.trac-columns th {
- background: rgba(1, 70, 137, 0.05) !important; 
+ background: rgba(1, 70, 137, 0.05) !important;
 }
 
 #content.search #results dd.searchable {
@@ -179,7 +179,7 @@ table.listing thead tr, .tickets tr.trac-columns th {
 }
 
 #info th, #info td {
-  padding: 3px 3px 0px;  
+  padding: 3px 3px 0px;
 }
 
 #trac-ticket-title a {
@@ -305,7 +305,7 @@ table.listing tbody tr.prio1:hover, table.listing tbody tr.prio2:hover {
     background: rgba(220, 138, 134,1) !important;
 }
 /* priority: deal */
-table.tickets tbody tr.even.prio8,table.listing tbody tr.odd.prio8 { 
+table.tickets tbody tr.even.prio8,table.listing tbody tr.odd.prio8 {
     background-color: rgba(255,221,204,.5);
     border-color:#F9C6AC;
 }
@@ -313,7 +313,7 @@ table.listing tbody tr.prio8:hover {
     background-color: rgba(255,221,204,1) !important
 }
 /* priority: next */
-table.tickets tbody tr.even.prio9,table.listing tbody tr.odd.prio9 { 
+table.tickets tbody tr.even.prio9,table.listing tbody tr.odd.prio9 {
     background-color: rgba(255, 245, 204,.5);
     border-color:#F9E9A9;
 }
@@ -321,7 +321,7 @@ table.listing tbody tr.prio9:hover {
     background-color: rgba(255, 245, 204,1)!important
 }
 /* priority: redalert */
-tr.even.prio10, table.tickets tbody tr.even.prio10, table.listing tbody tr.odd.prio10 { 
+tr.even.prio10, table.tickets tbody tr.even.prio10, table.listing tbody tr.odd.prio10 {
     background-color: rgba(255, 163, 151,.5);
     border-color:#F9B4AB;
 }
@@ -346,7 +346,7 @@ table.listing tbody tr.prio13:hover {
 }
 
 /* priority: sprint1 */
-table.tickets tbody tr.even.prio3,table.listing tbody tr.odd.prio3 { 
+table.tickets tbody tr.even.prio3,table.listing tbody tr.odd.prio3 {
     background-color: rgba(255, 61, 212, .2);
     border-color:rgba(255, 61, 212, .4);
 }
@@ -354,7 +354,7 @@ table.listing tbody tr.prio3:hover {
     background-color: rgba(255, 61, 212,.5) !important
 }
 /* priority: sprint2 */
-table.tickets tbody tr.even.prio4,table.listing tbody tr.odd.prio4 { 
+table.tickets tbody tr.even.prio4,table.listing tbody tr.odd.prio4 {
     background-color: rgba(255, 178, 35,.5);
     border-color: rgba(255, 178, 35,1)
 }
@@ -362,7 +362,7 @@ table.listing tbody tr.prio4:hover {
      background-color: rgba(255, 178, 35,1) !important
 }
 /* priority: sprint3 */
-table.tickets tbody tr.even.prio5,table.listing tbody tr.odd.prio5 { 
+table.tickets tbody tr.even.prio5,table.listing tbody tr.odd.prio5 {
     background-color: rgba(248, 255, 61,.4);
     border-color: rgba(180, 187, 0,.3);
 }
@@ -370,7 +370,7 @@ table.listing tbody tr.prio5:hover {
     background-color: rgba(248, 255, 61,1) !important
 }
 /* priority: sprint4 */
-table.tickets tbody tr.even.prio6,table.listing tbody tr.odd.prio6 { 
+table.tickets tbody tr.even.prio6,table.listing tbody tr.odd.prio6 {
     background-color: rgba(61, 255, 139, .4);
     border-color:rgba(61, 255, 139,1);
 }
@@ -378,7 +378,7 @@ table.listing tbody tr.prio6:hover {
    background-color: rgba(61, 255, 139,.9) !important
 }
 /* priority: sprint5 */
-table.tickets tbody tr.even.prio7,table.listing tbody tr.odd.prio7 { 
+table.tickets tbody tr.even.prio7,table.listing tbody tr.odd.prio7 {
     background-color: rgba(74, 176, 255,.4);
     border-color: rgba(74, 176, 255,.6);
 }
@@ -402,4 +402,8 @@ table.listing tbody tr.prio7:hover {
 
 .ui-tabs .ui-tabs-panel {
   height: 400px;
+}
+
+table.wiki th {
+  background-color: #f0f0f2;
 }

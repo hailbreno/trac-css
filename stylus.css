@@ -243,8 +243,8 @@ table.listing thead tr, .tickets tr.trac-columns th {
 }
 
 #ticket {
-  background: #f0f6ff;
-  border: 1px solid #667f99;
+  background: #E9EAEE;
+  border: 1px solid #bfc2cc;
   clear: both;
 }
 
@@ -257,15 +257,15 @@ table.listing thead tr, .tickets tr.trac-columns th {
 }
 
 #ticket .description h3 {
-  border-bottom: 1px solid #9ec5ff;
+  border-bottom: 1px solid #bfc2cc;
 }
 
 #ticket table.properties {
-  border-top: 1px solid #9ec5ff;
+  border-top: 1px solid #bfc2cc;
 }
 
 #attachments > div, #changelog {
-  border: 1px outset #667f99;
+  border: 1px solid #bfc2cc;
 }
 
 #ticket table.properties th, legend {
@@ -406,4 +406,35 @@ table.listing tbody tr.prio7:hover {
 
 table.wiki th {
   background-color: #f0f0f2;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background: #0089e0;
+    border-radius: .3em;
+    border: none;
+    color: #fff;
+    font-size: .9em;
+    padding: .35em 1em;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+}
+input[value="Reply"], input[value="Edit"], input[value="Preview"]{
+    border: solid 1px;
+    padding: .25em .75em;
+    border-radius: .3em;
+    color: #0089e0;
+    background: transparent
+}
+input[value="Edit"]:hover, input[value="Preview"]:hover{
+    border-color: #0089e0;
+    background: #0089e0;
+    color: #fff;
+}
+input[value="Reply"] {
+    color: #ff4800;
+}
+input[value="Reply"]:hover {
+    border-color: #ff4800;
+    background: #ff4800;
+    color: #fff;
 }

@@ -109,10 +109,6 @@ h3 {
     font-size: 13px;
 }
 
-.nav ul {
-    font-size: 12px;
-}
-
 .trac-nav, .trac-topnav, p.hint, span.hint, .threading {
     font-size: 90%;
 }
@@ -462,7 +458,7 @@ input, textarea, select {
 
 .nav ul {
     font-size: 13px;
-    padding: .2em;
+    padding: .2em 0;
 }
 #mainnav :link, #mainnav :visited {
     border-left: 1px solid #94c0f5;
@@ -482,4 +478,30 @@ table.listing thead tr, .tickets tr.trac-columns th {
 }
 table.listing tbody td, table.listing tbody th {
     border: 1px solid #e2e2e2;
+}
+
+/* ALGUNS DETALHES MENORES */
+
+/* Marcador das listas */
+#changelog .changes, #ticketchange .changes {
+  list-style: circle;
+}
+
+/* Título das mudanças e descrição dos tickets */
+h3.change {
+  font-weight: normal !important;
+}
+
+/* Text area de edição do ticket */
+#field-description, #comment {
+  resize: none;
+  border-radius: 0.25em 0.25em 0 0;
+}
+div.trac-grip {  
+  border-radius: 0 0 0.25em 0.25em;
+}
+
+/* Wiki toolbar */
+.wikitoolbar {
+  border-radius: 0.25em;
 }

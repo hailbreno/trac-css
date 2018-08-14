@@ -33,8 +33,8 @@ table.tickets tbody tr.fullrow th {
 }
 
 #mainnav {
-  background: rgba(1, 70, 137, 0.05);
-  border: 1px solid #d7d7d7;
+  background: #eef4fb;
+  border: 1px solid #94c0f5;
 }
 
 #mainnav .active :link, #mainnav .active :visited {
@@ -107,10 +107,6 @@ h3 {
 
 #search input {
     font-size: 13px;
-}
-
-.nav ul {
-    font-size: 12px;
 }
 
 .trac-nav, .trac-topnav, p.hint, span.hint, .threading {
@@ -197,7 +193,7 @@ table.listing thead tr, .tickets tr.trac-columns th {
   -moz-border-radius-topright: 4px;
   -webkit-border-bottom-right-radius: 4px;
   -webkit-border-top-right-radius: 4px;
-  background: #0089e0;
+  background: #1a81ff;
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
   color: #fff !important;
@@ -213,7 +209,7 @@ table.listing thead tr, .tickets tr.trac-columns th {
 }
 
 .ticket h1 span.status:before {
-  border-color: transparent #0089e0 transparent transparent;
+  border-color: transparent #1a81ff transparent transparent;
   border-style: solid;
   border-width: 12px 12px 12px 0;
   content: "";
@@ -243,8 +239,8 @@ table.listing thead tr, .tickets tr.trac-columns th {
 }
 
 #ticket {
-  background: #f0f6ff;
-  border: 1px solid #667f99;
+  background: #eef4fb;
+  border: 1px solid #94c0f5;
   clear: both;
 }
 
@@ -253,19 +249,19 @@ table.listing thead tr, .tickets tr.trac-columns th {
 }
 
 #ticket .date a{
-  color: #0089e0;
+  color: #1a81ff;
 }
 
 #ticket .description h3 {
-  border-bottom: 1px solid #9ec5ff;
+  border-bottom: 1px solid #94c0f5;
 }
 
 #ticket table.properties {
-  border-top: 1px solid #9ec5ff;
+  border-top: 1px solid #94c0f5;
 }
 
 #attachments > div, #changelog {
-  border: 1px outset #667f99;
+  border: 1px solid #94c0f5;
 }
 
 #ticket table.properties th, legend {
@@ -384,4 +380,128 @@ table.tickets tbody tr.even.prio7,table.listing tbody tr.odd.prio7 {
 }
 table.listing tbody tr.prio7:hover {
     background-color: rgba(74, 176, 255,.8) !important
+}
+
+/* Test manager stuff */
+.ui-widget-header {
+  border: 1px solid #f2f6f9 !important;
+  background: #004e96 !important;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+  color: #6c8dab !important;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+  color: #004e96 !important;
+}
+
+.ui-tabs .ui-tabs-panel {
+  height: 400px;
+}
+
+table.wiki th {
+  background-color: #f0f0f2;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background: #1a81ff;
+    border-radius: .3em;
+    border: none;
+    color: #fff;
+    font-size: .9em;
+    padding: .35em .65em;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+}
+input[value="Reply"], input[value="Edit"], input[value="Preview"]{
+    border: solid 1px;
+    padding: .25em .75em;
+    border-radius: .3em;
+    color: #1a81ff;
+    background: transparent
+}
+input[value="Edit"]:hover, input[value="Preview"]:hover{
+    border-color: #1a81ff;
+    background: #1a81ff;
+    color: #fff;
+}
+input[value="Reply"] {
+    color: #ff4800;
+}
+input[value="Reply"]:hover {
+    border-color: #ff4800;
+    background: #ff4800;
+    color: #fff;
+}
+
+legend {
+    text-transform: uppercase;
+}
+#query .option, #query .option input, #query .option select,
+#query fieldset, #query fieldset input, #query fieldset select {
+    font-size: 13px;
+}
+input[type=text], input.textwidget, textarea {
+    border-radius: .25em;
+}
+
+input, textarea, select {
+    border-radius: .25em;
+    padding: 2px 0;
+}
+#filters td label {
+    font-size: 13px;
+}
+
+/* NAV */
+
+.nav ul {
+    font-size: 13px;
+    padding: .2em 0;
+}
+#mainnav :link, #mainnav :visited {
+    border-left: 1px solid #94c0f5;
+    color: #004e96;
+    font-weight: 500;
+    padding: .4em 1.75em;
+    background: none;
+}
+
+/* TABELAS */
+table.listing thead tr, .tickets tr.trac-columns th {
+    background: #eef4fb !important;
+}
+.tickets tr.trac-columns th {
+    border: 1px solid #94c0f5;
+    border-bottom-color: #94c0f5;
+}
+table.listing tbody td, table.listing tbody th {
+    border: 1px solid #e2e2e2;
+}
+
+/* ALGUNS DETALHES MENORES */
+
+/* Marcador das listas */
+#changelog .changes, #ticketchange .changes {
+  list-style: circle;
+}
+
+/* Título das mudanças e descrição dos tickets */
+h3.change {
+  font-weight: normal !important;
+}
+
+/* Text area de edição do ticket */
+#field-description, #comment {
+  resize: none;
+  border-radius: 0.25em 0.25em 0 0;
+}
+div.trac-grip {  
+  border-radius: 0 0 0.25em 0.25em;
+}
+
+/* Wiki toolbar */
+.wikitoolbar {
+  border-radius: 0.25em;
 }

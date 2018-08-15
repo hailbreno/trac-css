@@ -484,8 +484,9 @@ table.listing tbody td, table.listing tbody th {
 /* ALGUNS DETALHES MENORES */
 
 /* Marcador das listas */
-#changelog .changes, #ticketchange .changes {
+li {
   list-style: circle;
+  margin: 5px 0;
 }
 
 /* Título das mudanças e descrição dos tickets */

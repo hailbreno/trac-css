@@ -1,4 +1,4 @@
 /* Just a funny list style */
-#changelog .changes, #ticketchange .changes {
+li {
   list-style: hiragana !important;
 }
